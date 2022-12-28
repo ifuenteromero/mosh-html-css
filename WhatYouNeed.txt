@@ -9,3 +9,9 @@ https://validator.w3.org/
 
 - CSS VALIDATOR
 https://jigsaw.w3.org/css-validator/
+
+- <i> <b> deprecated
+em, strong
+
+-HTML Entities, símbolo mayor y menor. se escriben &lt &gt &copy
+si quieres que dos palabras vayan juntas sí o sí se usa &nbsp
