@@ -3,3 +3,9 @@ En Vs Code, plugins. Instalar:
 - Live Server
 
 -Instalar Google Chrome
+
+- HTML VALIDATOR web pages
+https://validator.w3.org/
+
+- CSS VALIDATOR
+https://jigsaw.w3.org/css-validator/
