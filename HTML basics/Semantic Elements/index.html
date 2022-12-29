@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic elements</title>
+    <style>
+        .image-article {
+            width: 200px;
+        }
+
+        .highlight {
+            background-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- article, figure, mark, time -->
+    <!-- article An independent, self-contained piece of content. Ej forum post, comments, reviews, product card-->
+
+    <article>
+        <h1>Heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis exercitationem nisi tempora iusto et illum
+            nesciunt adipisci, consequatur in quod facilis culpa facere nostrum ipsam, quis quas, a qui aperiam!
+        </p>
+        <figure>
+            <img class="image-article" src="images/articles.PNG" alt="Article example">
+            <figcaption>An <mark class="highlight">article</mark> is an independent, self-contained pice of content
+            </figcaption>
+        </figure>
+    </article>
+    <article>
+        <h2>Happy new year</h2>
+        <figure>
+            <figcaption>2023 is here</figcaption>
+            <img class="image-article" src="images/new-year.jpg" alt="A photo of a beach with 2023 drawn in the sand">
+            <p> Published
+                <time datetime="2022-12-31 19:00">December 31 2022 07:00pm</time>
+            </p>
+        </figure>
+    </article>
+</body>
+
+</html>
