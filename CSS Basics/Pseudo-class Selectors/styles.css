@@ -1,0 +1,42 @@
+
+
+article :first-child {
+    font-size: 140%;
+    font-style: italic;
+}
+
+article :first-of-type {
+    text-decoration: overline;
+}
+
+article a:first-of-type {
+    background-color: red;
+}
+
+article p:last-of-type {
+    font-weight: bold;
+}
+
+article :last-child {
+    font-size: 8px;
+}
+
+ul li:nth-child(odd) {
+    color: deeppink;
+}
+
+ul li:nth-child(even) {
+    color: blue;
+}
+
+ul li:nth-child(3n) {
+    background-color: black;
+}
+
+a:visited {
+    color: dodgerblue;
+}
+
+a:hover, a:focus {
+    color: gold;
+}
