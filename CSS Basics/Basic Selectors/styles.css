@@ -1,0 +1,41 @@
+html {
+    background-color: gold;
+}
+
+#products {
+    
+}
+
+.product {
+
+}
+
+/* los que tienen target */
+a[target] { 
+    color: red;
+}
+
+a[target='blank'] { 
+    color: black;
+}
+
+a[href='https://google.com'] { 
+    text-decoration:overline;
+}
+
+/* contiene la palabra google */
+a[href*='google'] { 
+    background-color: white;
+}
+
+a[href^='https'] { 
+    /* empieza con  */
+}
+
+a[href$='com'] { 
+    /* acaba con  */
+}
+
+a[href^='https'][href$='com'] { 
+    /*empieza con y acaba con  */
+}
