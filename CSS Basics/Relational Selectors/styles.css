@@ -1,0 +1,22 @@
+#products {
+    border: 1px solid red;
+}
+
+/* descendientes directos hijas, nietas  */
+#products p {
+    color: orange;
+}
+
+/* hija directa */
+#products > p {
+    text-decoration: underline;
+}
+
+/* hermana menor inmediatly after*/
+#products + p {
+    font-size: 100px;
+}
+/* todas las hermanas menores */
+#products ~ p {
+    background-color: blue;
+}
