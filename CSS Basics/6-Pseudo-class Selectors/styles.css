@@ -13,7 +13,7 @@ article a:first-of-type {
     background-color: red;
 }
 
-article p:last-of-type {
+article a:last-of-type {
     font-weight: bold;
 }
 
@@ -37,6 +37,10 @@ a:visited {
     color: dodgerblue;
 }
 
+a:link {
+    color: yellow;
+}
+
 a:hover, a:focus {
-    color: gold;
+    color: rgb(234, 8, 118);
 }
