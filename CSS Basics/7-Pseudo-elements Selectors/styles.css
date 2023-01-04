@@ -1,0 +1,27 @@
+p::first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+p::first-line {
+    text-decoration: underline;
+}
+
+
+
+p::selection {
+    background-color: red;
+}
+
+::selection {
+    background-color: blue;
+}
+
+p::before {
+    content: '...';
+}
+
+p::after {
+    content: 'read more';
+    color: red;
+}
