@@ -1,0 +1,11 @@
+p {
+    color: dodgerblue;
+    border: 1px solid black;
+}
+
+.highlight {
+    font-weight: bold;
+    /* no quiero que lo herede */
+    color: initial; 
+    border: inherit;
+}
