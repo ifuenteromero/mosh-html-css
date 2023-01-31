@@ -1,0 +1,46 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border: 10px solid black;
+    padding: 20px;
+    margin: 50px;
+}
+
+.box::before {
+    content: "Hello"
+}
+
+.content-box {
+    box-sizing: content-box;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.inline-element {
+    /* span es un default inline element No respetan width y height*/
+    display: inline; 
+}
+
+.inline-block-element {
+    /* inline-block se le puede dar width y height */
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
