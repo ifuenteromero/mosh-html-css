@@ -1,0 +1,22 @@
+table, tr {
+    border: 1px solid #c4dcf3;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #eef7ff;
+}
+
+.summary {
+    background-color:  #427fef; 
+    color: white;
+}
+
+tfoot {
+    text-align: left;
+}
