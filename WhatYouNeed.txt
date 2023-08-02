@@ -14,6 +14,8 @@ https://validator.w3.org/
 - CSS VALIDATOR
 https://jigsaw.w3.org/css-validator/
 
+In an empty HTML document, if you type ! and press enter, it creates a boilerplate of an HTML document for you.
+
 - <i> <b> deprecated
 em, strong
 
