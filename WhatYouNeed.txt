@@ -4,6 +4,9 @@ En Vs Code, plugins. Instalar:
 
 -Instalar Google Chrome
 
+Ctrl + Alt + I => Abrir inspector
+Ctrl + R (abierto el inspector) => refresh the website
+ 
 - HTML VALIDATOR web pages
 https://validator.w3.org/
 
