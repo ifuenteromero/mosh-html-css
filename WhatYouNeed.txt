@@ -6,6 +6,7 @@ En Vs Code, plugins. Instalar:
 
 Ctrl + Alt + I => Abrir inspector
 Ctrl + R (abierto el inspector) => refresh the website
+Crtl + B in VSCode to toggle lateral menu
  
 - HTML VALIDATOR web pages
 https://validator.w3.org/
