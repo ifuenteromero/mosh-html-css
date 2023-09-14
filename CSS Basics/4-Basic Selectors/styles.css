@@ -6,8 +6,24 @@ html {
     
 }
 
-.product {
+/* todos los a que son descendientes de prodct, hijos, nietos, bisnietos */
+.product a {
+    /* color: blue; */
+}
 
+/* descendientes exclusivamente hijos */
+.product > a {
+    /* color: red; */
+}
+
+/* hermano menor de product, exclusivamente uno */
+.product + a {
+    /* color: red; */
+}
+
+/* hermanos menores de product */
+.product  ~ a {
+    color: red;
 }
 
 /* los que tienen target */
