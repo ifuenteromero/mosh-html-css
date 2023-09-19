@@ -1,0 +1,27 @@
+/* Name colors */
+/* RGB */
+/* HSL */
+/* Hexadecimal */
+
+.box {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+.box--purple {
+    background-color: rgb(24, 3, 85);
+}
+
+.box--transparent {
+    background-color: rgba(24, 3, 85, 0.5);
+}
+
+.box--hex {
+    background-color: #23ab23a2;
+}
+
+.box--hsl {
+    background-color: hsla(17, 100%, 50%, 1);
+}
