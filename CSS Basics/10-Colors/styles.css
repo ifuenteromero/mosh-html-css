@@ -3,6 +3,12 @@
 /* HSL */
 /* Hexadecimal */
 
+:root {
+    --color-primary: hsla(17, 100%, 50%, 1);
+    --color-secondary: hsla(197, 100%, 50%, 1);
+}
+
+
 .box {
     height: 200px;
     width: 200px;
@@ -23,5 +29,17 @@
 }
 
 .box--hsl {
-    background-color: hsla(17, 100%, 50%, 1);
+    background-color: var(--color-primary);
+}
+
+.box--compl {
+    background-color: var(--color-secondary);
+}
+
+.box--gradient {
+    width: 100%;
+    height: 200px;
+    /* background: linear-gradient(to bottom right,var(--color-primary), var(--color-secondary)); */
+    background: var(--color-primary);
+    background: linear-gradient(45deg,var(--color-primary), var(--color-secondary));
 }
