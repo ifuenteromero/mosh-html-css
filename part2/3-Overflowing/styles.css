@@ -1,0 +1,24 @@
+.box {
+    border: 3px solid coral;
+    display: inline-block;
+    height: 150px;
+    vertical-align: top;
+    width: 150px;
+    
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-scroll {
+    overflow: scroll;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
