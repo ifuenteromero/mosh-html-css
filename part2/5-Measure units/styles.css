@@ -21,11 +21,17 @@ body {
 }
 
 .box2 {
-    /* 50% of the with of the parent element */
     /* 10em 10 time the font size current element */
     /* 10rem 10 times the fontsize of the root element */
     width: 10rem;
     font-size: 1.6rem;
     background-color: blue;
     height: 100%;
+}
+
+.box3 {
+    /* 50% of the with of the parent element */
+    width: 50%;
+    height: 100px;
+    background-color: red;
 }
