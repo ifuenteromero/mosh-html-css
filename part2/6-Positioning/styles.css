@@ -1,0 +1,43 @@
+html {
+    background-color: coral;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.boxes {
+    background-color: #ababab;
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+}
+
+.box--one {
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.box--two {
+    background-color: green;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.box--three {
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+    bottom: 1rem;
+    left: 1rem;
+}
