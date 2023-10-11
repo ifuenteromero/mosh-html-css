@@ -1,0 +1,64 @@
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+    position: relative;
+}
+
+.container::before {
+    position: absolute;
+    top: 0;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row::before {
+    content: "flex direction row";
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-row-reverse::before {
+    content: "flex direction row-reverse";
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-column::before {
+    content: "flex direction column";
+    white-space: nowrap;
+}
+
+.flex-column-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-column-reverse::before {
+    left: 2rem;
+    content: "flex direction column-reverse";
+    white-space: nowrap;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    margin: 1rem;
+}
+
+.big-container {
+    height: 90vh;
+    border: 3px solid lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   align-content: center;
+
+}
