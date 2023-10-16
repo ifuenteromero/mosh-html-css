@@ -1,0 +1,3 @@
+.dishes:hover {
+    filter: grayscale(90%) blur(2px);
+}
