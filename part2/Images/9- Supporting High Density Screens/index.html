@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supporting High-Density screens</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <p>A partir de una imagen con mucha resolución meal-full</p>
+    <a href="https://www.iloveimg.com/es/redimensionar-imagen#resize-options,pixels" target="blank">Herramienta para
+        redimensionar imágenes. </a>
+    <p>A partir de la primera con mucha resolución se redimeniona a la 3DPR de 1200*1200
+        después la 2DPR a 800*800 y se le pone srcset</p>
+
+    <img src="./images/meal.jpg" alt="A bowl of salmon and curry"
+        srcset="./imagen/meal.jpg 1x, ./images/meal@2x.jpg 2x, ./images/meal@3x.jpg 3x">
+
+</body>
+
+</html>
