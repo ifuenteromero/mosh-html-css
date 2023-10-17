@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using modern image formats</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <a href="https://cloudconvert.com/" target="blank">Convert images to WebP</a>
+    <p>Internet explorer doesn't support WebP images</p>
+    <a href="">Can I use WebP</a>
+    <!-- <img src="./images/dj.jpg" alt="">
+    <img src="./images/dj.webp" alt=""> -->
+    <picture>
+        <source type="image/webp" srcset="./images/dj.webp">
+        <source type="image/jpeg" srcset="./images/dj.jpg">
+        <img src="./images/dj.jpg" alt="a dj session">
+    </picture>
+    <p>
+        &nbsp;&nbsp;&lt;picture&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;source type="image/webp" srcset="./images/dj.webp"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;source type="image/jpeg" srcset="./images/dj.jpg"&gt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="./images/dj.jpg" alt="a dj session"&gt;<br>
+        &nbsp;&nbsp;&lt;/picture&gt;
+    </p>
+    <img src="./images/chatgpt.PNG" alt="">
+
+</body>
+
+</html>
