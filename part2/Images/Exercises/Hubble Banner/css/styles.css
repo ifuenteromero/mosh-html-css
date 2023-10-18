@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    height: 100%;
+    background-image: url(../images/hubble-banner_320.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px 0 #000;
+    word-spacing: 1.5rem;
+    text-transform: uppercase;
+}
+
+.tagline {
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    margin: 2rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+        background-image: url(../images/hubble-banner_914.jpg);
+    }
+    .tagline {
+        font-size: 3rem;
+       
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero {
+        background-image: url(../images/hubble-banner_1384.jpg);
+    }
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero {
+        background-image: url(../images/hubble-banner_1440.jpg);
+    }
+    h1 {
+        font-size: 9rem;
+    }
+}
