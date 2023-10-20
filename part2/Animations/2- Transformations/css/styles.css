@@ -1,0 +1,45 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+}
+
+.box {
+    font-size: 1.6rem;
+    width: 10rem;
+    height: 10rem;
+    background-color: coral;
+    margin: 1rem;
+    transition: all 1s;
+}
+
+.box-rotate:hover {
+    transform: rotate(15deg);
+}
+
+.box-rotate-:hover {
+    transform: rotate(-15deg);
+}
+
+.box-scale:hover {
+    transform: scale(2);
+}
+
+.box-scale-:hover {
+    transform: scale(0.5);
+}
+
+.box-skew:hover {
+    transform: skew(15deg);
+}
+
+.box-skew-:hover {
+    transform: skew(-90deg);
+}
+
+.box-translate:hover {
+    transform: translate(10px, -30px);
+}
+
